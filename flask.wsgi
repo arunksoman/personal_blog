@@ -10,4 +10,5 @@ app = create_app()
 # make the secret code a little better
 app.secret_key = 'fdgukhuyyre4454556566rddfrtrt'
 
-app.run()
+if __name__ == "__main__":
+  app.run()
