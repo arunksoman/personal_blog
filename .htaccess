@@ -1,3 +1,4 @@
+/home/arunksom/public_html/flask/.htaccess
 RewriteEngine On
 RewriteBase /
 RewriteRule ^(media/.*)$ - [L]
