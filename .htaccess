@@ -2,5 +2,5 @@ RewriteEngine On
 RewriteBase /
 RewriteRule ^(media/.*)$ - [L]
 RewriteRule ^(admin_media/.*)$ - [L]
-RewriteRule ^(personal_blog\.wsgi/.*)$ - [L]
-RewriteRule ^(.*)$ personal_blog/app.wsgi/$1 [QSA,PT,L]
+RewriteRule ^(flask\.wsgi/.*)$ - [L]
+RewriteRule ^(.*)$ flask/flask.wsgi/$1 [QSA,PT,L]
