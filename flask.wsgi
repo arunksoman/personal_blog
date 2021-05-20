@@ -11,4 +11,4 @@ application = create_app()
 application.secret_key = 'fdgukhuyyre4454556566rddfrtrt'
 
 if __name__ == "__main__":
-  app.run()
+  application.run()
